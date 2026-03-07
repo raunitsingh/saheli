@@ -1,0 +1,6 @@
+/.env
+/.vscode
+/backend
+/requirements.txt
+/response.mp3
+/venv
