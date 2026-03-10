@@ -1,0 +1,29 @@
+[
+  {
+    "patient_id": null,
+    "transcript": "\u092e\u0941\u091d\u0947 \u092c\u0939\u0941\u0924 \u091c\u093c\u094d\u092f\u093e\u0926\u093e \u092c\u0941\u0916\u093c\u093e\u0930 \u0939\u0948 3 \u0926\u093f\u0928\u094b\u0902 \u0938\u0947 hello",
+    "symptoms": {
+      "fever": {
+        "How long have you had the fever?": "3 days 3 days",
+        "Do you also have chills or sweating?": "Yes Yes Yes",
+        "Are you experiencing headache or body pain?": "Yes Yes Yes",
+        "Have you noticed vomiting or nausea?": "Yes Yes Yes"
+      }
+    },
+    "interview_data": {
+      "fever": {
+        "How long have you had the fever?": "3 days 3 days",
+        "Do you also have chills or sweating?": "Yes Yes Yes",
+        "Are you experiencing headache or body pain?": "Yes Yes Yes",
+        "Have you noticed vomiting or nausea?": "Yes Yes Yes"
+      }
+    },
+    "possible_condition": "viral infection",
+    "severity": "medium",
+    "risk_level": "medium",
+    "referral_needed": false,
+    "referral_reason": null,
+    "soap_note": "Here is the SOAP medical note based on the interview data:\n\n**Subjective:**\nThe patient reports having a fever for 3 days, accompanied by chills and sweating. They are also experiencing headache and body pain. Additionally, the patient has noticed vomiting and nausea.\n\n**Objective:**\n(No objective data is available in the provided interview data. Typically, this section would include vital signs, physical examination findings, laboratory results, and other objective measurements.)\n\n**Assessment:**\nBased on the patient's symptoms, it is likely that they have an acute infectious or inflammatory process. The presence of fever, chills, headache, body pain, vomiting, and nausea suggests a possible viral or bacterial illness.\n\n**Plan:**\nFurther evaluation and diagnostic testing (e.g., complete blood count, blood cultures, urinalysis) may be necessary to determine the underlying cause of the patient's symptoms. The patient may be started on symptomatic treatment, such as antipyretics and antiemetics, to manage their fever, headache, and nausea. Close monitoring of the patient's condition and adjustment of the treatment plan as needed are also essential. A follow-up appointment may be scheduled to assess the patient's response to treatment and re-evaluate their condition.",
+    "created_at": "2026-03-07T20:41:15.446117"
+  }
+]
