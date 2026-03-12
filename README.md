@@ -179,11 +179,11 @@ python backend/main.py
 
 - [x] Sarvam AI speech-to-text integration
 - [x] LLM-based structured symptom extraction
-- [ ] Multi-turn clinical interview agent
-- [ ] RAG pipeline over ICMR/NHM guidelines
-- [ ] SOAP note generator
-- [ ] Referral risk scoring engine
-- [ ] Supabase database integration
+- [x] Multi-turn clinical interview agent
+- [x] RAG pipeline over ICMR/NHM guidelines
+- [x] SOAP note generator
+- [x] Referral risk scoring engine
+- [x] Supabase database integration
 - [ ] Offline-first architecture with sync
 - [ ] React frontend — ASHA worker UI
 - [ ] Household health card and longitudinal tracking
