@@ -99,15 +99,26 @@ Synced to PHC doctor before patient arrives
 
 ```
 saheli/
-├── audio/                  # Sample audio files for testing
-│   └── sample.wav
 ├── backend/
-│   ├── sarvam_stt.py       # Sarvam AI speech-to-text module
-│   ├── gemini_extract.py   # Symptom extraction via LLM
-│   └── main.py             # FastAPI entry point
-├── data/                   # Medical guidelines for RAG (ICMR, NHM, WHO)
-├── .env                    # API keys (never commit this)
-├── requirements.txt
+│   ├── api_server.py             # Main FastAPI entry point & API routes
+│   ├── app/
+│   │   ├── ai/                   # Modular AI agents
+│   │   │   ├── clinical_reasoning.py
+│   │   │   ├── interview_agent.py
+│   │   │   ├── risk_scorer.py
+│   │   │   ├── soap_generator.py
+│   │   │   └── symptom_extractor.py
+│   │   └── interview_pipeline.py # Core conversation state machine
+│   ├── database/                 # Supabase client & offline sync queue logic
+│   ├── knowledge_base/           # RAG Engine
+│   │   ├── docs/                 # ASHA books & WHO guidelines (PDFs)
+│   │   ├── vector_db/            # FAISS indexes for lightning-fast retrieval
+│   │   └── rag_engine.py         # Document retrieval logic
+│   └── voice/                    # Audio processing, Sarvam API & Whisper wrappers
+├── frontend/
+│   └── app.py                    # Streamlit web dashboard for ASHA workers
+├── offline_queue.json            # Local storage payload buffer for offline mode
+├── requirement.txt               # Python package dependencies
 └── README.md
 ```
 
