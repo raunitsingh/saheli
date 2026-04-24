@@ -221,6 +221,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 👨‍💻 Built With ❤️ for Rural India
+## 👨‍💻 Built for ASHA workers working in Rural India
 
-*Saheli was conceived and built at a hackathon to address one of India's most underserved healthcare gaps — the ASHA worker's daily visit.*
+*Saheli was conceived and built to address one of India's most underserved healthcare gaps — the ASHA worker's daily visit.*
